@@ -16,6 +16,7 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
+  font-size: 200%
 }
 
 header nav {
@@ -48,6 +49,7 @@ p{
   color: #ffffff;
   height: 400px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-position: center;
 }
 
 .jumbotron h2 {
