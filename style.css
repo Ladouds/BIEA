@@ -74,7 +74,7 @@ section .row img {
   color: #fbd1d5;
   text-shadow: none;
   background-color: #18171E;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -106,4 +106,10 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+
+#favorites {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
