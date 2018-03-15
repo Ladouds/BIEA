@@ -1,0 +1,162 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding-top:5vh;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 200%
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+h2{
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+p{
+  font-weight: 700;
+      margin: 10 0 10px;
+  text-align: center;
+}
+
+.instaimg img {
+  margin-bottom: 30px;
+}
+
+.instaimg img:hover {
+  opacity:0.8;
+  -moz-opacity:0.8;
+  -webkit-opacity:0.8;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+  object-fit: scale-down;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-position: center;
+}
+/*
+  background-image: url("https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb.jpg");
+*/
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #D7CFCF;
+  text-shadow: none;
+  background-color: #18171E;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #18171E;
+}
+
+.btn-secondary {
+  background-color: #18171E;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.welcome  {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.welcome h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+.welcome h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+}
+
+.greybox {
+  background-color: #E8DFE0;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#categories {
+  padding-top: 40px;
+  padding-bottom: 00px;
+}
+
+
