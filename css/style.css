@@ -160,3 +160,19 @@ footer li img {
 }
 
 
+
+/* Styles for page jumbotrons */
+
+#Landingpage  {
+  
+}
+
+
+#Lunchdinnerheader  {
+  height: 100px;
+  background-color: #E8DFE0;
+  background-image: none;
+  color: black;
+  align-items: center;
+}
+

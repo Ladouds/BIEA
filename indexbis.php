@@ -1,7 +1,7 @@
 	<!DOCTYPE html>
 <html>
 <head>
-	<title>Best I Ever Ate</title>
+	<title>Index bis</title>
 
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -21,7 +21,7 @@
       <h1 class="col-sm-4">BIEA</h1>
       <nav class="col-sm-8  ">
         <p><a href="Map.html">Map</a></p>
-          <p>Paris picks</p>
+        <p>Occasions</p>
         <p>Destinations</p>
         <p>About</p>
         <p><a href="mailto:alia_triki@hotmail.fr?Subject=bestieverate" target="_top">Contact</a></p>
@@ -35,7 +35,7 @@
 <!-- JUMBOTRON -->
 
 
-<section class="jumbotron" id="landingpage">
+<section class="jumbotron">
   <div class="container">
         <div class="row text-center">
       <h2>Best I ever ate</h2>
