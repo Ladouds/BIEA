@@ -180,3 +180,30 @@ footer li img {
 
   align-items: center;
 }
+
+
+
+
+/* Styles for page navbar test */
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+  background-color: white;
+}
+
+
+.example2 .navbar-brand>img {
+  padding: 7px 15px;
+}
+
+
+
+
+
+
+
