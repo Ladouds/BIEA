@@ -52,6 +52,16 @@ p{
   -webkit-opacity:0.8;
 }
 
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #CC3333;
+}
+
+
+
+
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -74,6 +84,17 @@ p{
   color: #fff;
   text-align: center;
 }
+
+.jumbotron h3 {
+  font-size: 25px;
+  font-weight: 400;
+  
+
+  color: #fff;
+  text-align: center;
+}
+
+
 
 section .row img {
   margin: 0 0 30px;
@@ -184,22 +205,7 @@ footer li img {
 
 
 
-/* Styles for page navbar test */
 
-.navbar-brand {
-  padding: 0px;
-}
-.navbar-brand>img {
-  height: 100%;
-  padding: 15px;
-  width: auto;
-  background-color: white;
-}
-
-
-.example2 .navbar-brand>img {
-  padding: 7px 15px;
-}
 
 
 

@@ -1,33 +1,80 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Best I Ever Ate</title>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags - from navbar example-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+
+    <title>Index with navbar</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Following is for navbar -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug for navbar-->
+    <link href="./css/navbarcss/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for navbar template -->
+    <link href="./css/navbarcss/navbar-fixed-top.css" rel="stylesheet">
+
+   <!-- Need following scripts to enable collapse -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+
 </head>
-
 
 <body>
 
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Best I ever ate</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <!-- <li><a href="#about">About</a></li> -->
+            <!-- <li><a href="#contact">Contact</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse posts <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Brunch</a></li>
+                <li><a href="#">Lunch</a></li>
+                <li><a href="#">...</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">By location</li>
+                <li><a href="#">Neighborhoods</a></li>
+                <li><a href="#">Destinations</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="../navbar/">Destinations</a></li> -->
+            <li><a href="../navbar-static-top/">About</a></li>
+            <li><a href="mailto:alia_triki@hotmail.fr?Subject=bestieverate" target="_top">Contact <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-<!-- NAVBAR-->
-
-    <header class="container">
-    <div class="row">
-      <h1 class="col-sm-4">BIEA</h1>
-      <nav class="col-sm-8  ">
-        <!--  <p><a href="Map.html">Map</a></p>-->
-        <p>About</p>
-        <p><a href="mailto:alia_triki@hotmail.fr?Subject=bestieverate" target="_top">Contact</a></p>
-      </nav>
-    </div>
-    </header>
-
-<!-- END OF NAVBAR -->
+    <!-- End of fixed navbar -->
 
 
 <!-- JUMBOTRON -->
@@ -35,7 +82,7 @@
 
 <section class="jumbotron" id="landingpage">
   <div class="container">
-        <div class="row text-center">
+    <div class="row text-center">
       <h2>Best I ever ate</h2>
       <h3>Explore Paris, one bite at a time</h3>
     </div>
@@ -44,7 +91,7 @@
 
 <!-- END OF JUMBOTRON -->
 
-
+    <!-- For changing space between navbar and jumbotron, change padding properties in navbar-fixed-top.css-->
 
 <!-- START OF PICKS SECTION -->
 
@@ -151,7 +198,25 @@
   
 
 
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+
+
 </body>
-
-
 </html>
