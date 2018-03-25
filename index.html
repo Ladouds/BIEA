@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script type="text/javascript" src="path/to/instafeed.min.js"></script>
 
-    <title>Index with navbar</title>
+    <title>Best I ever ate</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -36,7 +36,7 @@
 <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top"> <!-- Replace custom with default to get defaut bootstrap navbar colors -->
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -55,13 +55,16 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse posts <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Brunch</a></li>
+                <li class="dropdown-header">Occasions</li>
+                <li><a href="Brunch.html">Brunch</a></li>
                 <li><a href="#">Lunch</a></li>
-                <li><a href="#">...</a></li>
+                <li><a href="#">Dinner</a></li>
+                <li><a href="#">Drinks</a></li>
+                <li><a href="#">Coffee</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">By location</li>
-                <li><a href="#">Neighborhoods</a></li>
-                <li><a href="#">Destinations</a></li>
+                <li class="dropdown-header">Explore</li>
+                <li><a href="#">Coups de coeur</a></li>
+                <li><a href="#">Travel with BIEA</a></li>
               </ul>
             </li>
           </ul>

@@ -53,10 +53,66 @@ p{
 }
 
 
-.navbar-custom {
-    color: #FFFFFF;
-    background-color: #CC3333;
+
+
+
+
+
+
+
+                /*________________________ Style for navbar ________________________*/
+
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+color: #c1a0a4;  /*Sets the text hover color on navbar*/
 }
+
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active >   
+ a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+color: #c1a0a4; /*BACKGROUND color for active*/
+background-color: white;
+}
+
+  .navbar-custom {
+    background-color: white;
+    border-color: #030033;
+}
+
+  .navbar-custom a { /*Changes color of BIEA in top left corner - link class*/
+    color: #c1a0a4;
+}
+
+  .dropdown-menu > li > a:hover, /*NOT BEING USED RIGHT NOW*/
+   .dropdown-menu > li > a:focus {
+    color: #c1a0a4;
+   text-decoration: none;
+  background-color: white;  /*change color of links in drop down here*/
+   }
+
+  .navbar-custom .nav > li > a:hover,
+  .navbar-custom .nav > li > a:focus {
+    color: white;
+    text-decoration: none;
+    background-color: #c1a0a4; /*Change rollover cell color here*/
+  }
+
+  .icon-bar {
+   background-color: #c1a0a4; /*Changes color of collapsed button lines*/
+    }
+
+  .navbar-toggle.collapsed {
+   background-color: transparent; /*Changes color of collapsed button background*/
+   border-color: #fcf7f8; /*Changes color of collapsed button border*/
+    }
+
+  .navbar-custom .navbar-nav > li > a {
+   color: #c1a0a4; /*Change active text color here*/
+    }
+
+                /* ____________ End of style for navbar ____________ */
+
+
+
+
 
 
 
@@ -88,9 +144,7 @@ p{
 .jumbotron h3 {
   font-size: 25px;
   font-weight: 400;
-  
-
-  color: #fff;
+    color: #fff;
   text-align: center;
 }
 
@@ -127,6 +181,7 @@ section .row img {
   margin: 0 0 30px;
 }
 
+
 footer {
   font-size: 12px;
   padding: 20px 0;
@@ -145,6 +200,7 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
 
 .welcome  {
   padding-top: 40px;
