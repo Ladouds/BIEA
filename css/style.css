@@ -247,9 +247,9 @@ height: 400px;
 
 
 #brunchjumbotron  {
-  height: 50px;
-  background-color: #c1a0a4;
-    align-items: center;
+background-image: url("https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb.jpg");
+height: 200px;  
+background-color: #c1a0a4;
 }
 
 #Lunchdinnerheader h2 {
