@@ -81,12 +81,17 @@ background-color: white;
     color: #c1a0a4;
 }
 
-  .dropdown-menu > li > a:hover, /*NOT BEING USED RIGHT NOW*/
+  .dropdown-menu > li > a:hover, /*NOT BEING USED RIGHT NOW - CAN DELETE*/
    .dropdown-menu > li > a:focus {
     color: #c1a0a4;
    text-decoration: none;
-  background-color: white;  /*change color of links in drop down here*/
+  background-color: #c1a0a4;  /*change color of links in drop down here*/
    }
+
+  .navbar-custom .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: white;
+    color:#c1a0a4;
+  } /*Added this to change change color of links in drop down*/
 
   .navbar-custom .nav > li > a:hover,
   .navbar-custom .nav > li > a:focus {
@@ -134,7 +139,7 @@ background-color: white;
 */
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin: 0;
   color: #fff;
@@ -142,7 +147,7 @@ background-color: white;
 }
 
 .jumbotron h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
     color: #fff;
   text-align: center;
