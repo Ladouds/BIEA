@@ -120,16 +120,11 @@ background-color: white;
 
 
 
-
-
-
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb.jpg");
   background-size: cover;
   color: #ffffff;
-  height: 400px;
   object-fit: scale-down;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   background-position: center;
@@ -243,19 +238,18 @@ footer li img {
 
 
 
-/* Styles for page jumbotrons */
+/* Styles for page jumbotrons - set background image and height*/
 
-#Landingpage  {
-  
+#landingpagejumbotron  {
+background-image: url("https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb.jpg");
+height: 400px;  
 }
 
 
-#Lunchdinnerheader  {
-
-  background-color: #E8DFE0;
-
-  color: black;
-  align-items: center;
+#brunchjumbotron  {
+  height: 50px;
+  background-color: #c1a0a4;
+    align-items: center;
 }
 
 #Lunchdinnerheader h2 {
